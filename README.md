@@ -43,5 +43,3 @@ This project focuses on analyzing restaurant and consumer data using SQL to unco
 - Subqueries  
 
 ---
-
-## 📂 Project Structure
