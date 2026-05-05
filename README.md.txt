@@ -1,82 +1,46 @@
-# 🍽️ Restaurant & Consumer Data Analysis (SQL)
+# 🍽️ Restaurant Consumer Analysis (SQL)
 
-## 📌 Project Overview
-This project analyzes restaurant performance and consumer behavior using a relational database built entirely with SQL.  
-The focus is on understanding consumer preferences, restaurant ratings, and service patterns by applying structured database design and analytical SQL queries.
-
----
-
-## 🎯 Project Objectives
-- 📐 Design a normalized relational database using SQL
-- 🔗 Maintain data integrity with Primary & Foreign Keys
-- 📊 Extract business insights from consumer and restaurant data
-- 🧠 Apply advanced SQL concepts for real-world analysis
+## 📌 Overview
+This project focuses on analyzing restaurant and consumer data using SQL to uncover patterns in customer preferences, ratings, and pricing. The goal is to derive meaningful insights that can help understand restaurant performance and user behavior.
 
 ---
 
-## 🧱 Database Design
-The database is designed using **ER modeling** and consists of the following tables:
-
-- 👤 **consumers** – demographic and lifestyle information  
-- ❤️ **consumer_preferences** – preferred cuisines of consumers  
-- 🏪 **restaurants** – restaurant details including location and services  
-- 🍕 **restaurant_cuisines** – cuisines offered by each restaurant  
-- ⭐ **ratings** – overall, food, and service ratings given by consumers  
-
-All tables are connected using **primary and foreign key constraints** to ensure referential integrity.
-
-📌 The complete database structure is illustrated in `ER_Diagram.png`.
-
----
-
-## 📊 Analysis & Insights
-Using SQL queries, the following insights were derived:
-
-- ⭐ Identified restaurants with high overall satisfaction ratings  
-- 🍽️ Analyzed cuisine popularity and consumer preferences  
-- 👥 Segmented consumers based on age, occupation, budget, and lifestyle  
-- 🏙️ Compared restaurant performance across different cities  
-- 📈 Ranked restaurants and consumers using window functions  
-- 🔍 Detected rating behavior patterns using joins and subqueries  
-
-The analysis ranges from basic filtering to advanced SQL operations, including:
-- JOINs & Subqueries  
-- Common Table Expressions (CTEs)  
-- Window Functions (`RANK`, `ROW_NUMBER`, `LEAD`)  
-- Views and Stored Procedures  
+## 📊 Dataset
+- Contains information about restaurants, cuisines, locations, ratings, and pricing
+- Includes consumer-related data for analyzing preferences and trends
 
 ---
 
 ## 🛠️ Tools & Technologies
-- 🧮 **SQL (MySQL)**
-- 🖥️ **MySQL Workbench**
-- 🧩 **ER Diagram for Database Design**
+- SQL (MySQL / PostgreSQL)
+- Data Analysis
 
 ---
 
-## 📁 Project Structure
-📂 Restaurant-Consumer-Analysis
-├── schema.sql 🧱 Database schema & constraints
-├── queries.sql 📊 Analytical SQL queries
-├── ER_Diagram.png 🧩 ER diagram
-└── README.md 📄 Project documentation
+## 🚀 Key Features
+- Data cleaning and preprocessing using SQL queries  
+- Analysis of customer preferences and behavior  
+- Cuisine-wise and location-based insights  
+- Pricing and rating trend analysis  
 
 ---
 
-## 💡 Key Learnings
-- 📌 Structured schema design simplifies complex analysis  
-- 📊 SQL alone is powerful enough for meaningful insights  
-- 🔍 Advanced queries help compare individual behavior with overall trends  
-- 🏗️ Proper database design improves scalability and readability  
+## 📈 Analysis & Insights
+- Identified popular cuisines based on customer ratings  
+- Analyzed how pricing impacts customer preferences  
+- Explored location-based restaurant performance  
+- Compared rating trends across different categories  
 
 ---
 
-## 🚀 Conclusion
-This project demonstrates end-to-end SQL skills — from database design to advanced data analysis.  
-It reflects practical experience in working with relational data and solving analytical problems using SQL without external BI tools.
+## 🧠 SQL Concepts Used
+- SELECT, WHERE, ORDER BY  
+- GROUP BY, HAVING  
+- JOINS (INNER JOIN, LEFT JOIN)  
+- Aggregate Functions (COUNT, AVG, SUM)  
+- Subqueries  
 
 ---
 
-## 🔗 GitHub Repository
-👉 https://github.com/Lovelyscoder/restaurant-consumer-analysis
+## 📂 Project Structure
 
