@@ -2,8 +2,6 @@
 SQL-based analysis of restaurant and consumer data to uncover trends in customer preferences, ratings, and pricing. Includes data cleaning, joins, aggregations, and insights on cuisine popularity and location-based performance.
 
 
-# 🍽️ Restaurant Consumer Analysis (SQL)
-
 ## 📌 Overview
 This project focuses on analyzing restaurant and consumer data using SQL to uncover patterns in customer preferences, ratings, and pricing. The goal is to derive meaningful insights that can help understand restaurant performance and user behavior.
 
